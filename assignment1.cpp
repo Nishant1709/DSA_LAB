@@ -3,7 +3,7 @@ using namespace std;
 
 class node {
 public:
-    string namesarwa;
+    string name;
     string number;
     node* next;
 
