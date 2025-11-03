@@ -1,3 +1,16 @@
+/*Create a database of at least 5 SEIT students with Roll No., Name, and SGPA.
+Perform the following operations on the student records (array of structures):
+
+Bubble Sort by Roll Number (ascending)
+
+Insertion Sort by Name (alphabetical order)
+
+Quick Sort by SGPA (descending) to display top students
+
+Linear Search by SGPA (display all matches)
+
+Non-recursive Binary Search by Name (display partial matches)*/
+
 #include <iostream>
 using namespace std;
 

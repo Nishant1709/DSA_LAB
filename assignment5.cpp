@@ -1,3 +1,11 @@
+/*Implementation of a Priority Queue
+• Develop a priority queue where elements are dequeued based on priority rather than
+insertion order.
+• Support operations such as insertion, deletion, and display.
+Implementation of a Double-Ended Queue (Deque)
+• Implement a double-ended queue where insertion and deletion can happen from both ends.
+• Support operations such as enqueue front, enqueue rear, deque front, dequeue rear. */
+
 #include <iostream>
 using namespace std;
 
@@ -105,3 +113,25 @@ int main() {
     return 0;
 }
 
+//output
+/*PS C:\Users\Nishant Sarwa\OneDrive\Documents\Nishant Sarwa\DSA> g++ assignment5.cpp
+PS C:\Users\Nishant Sarwa\OneDrive\Documents\Nishant Sarwa\DSA> ./a.exe
+Enter 1 to add, 2 to see highest priority, 3 to delete highest priority, 0 to exit: 
+1
+Enter data: 23
+Enter priority: 1
+Enter 1 to add, 2 to see highest priority, 3 to delete highest priority, 0 to exit: 1
+Enter data: 33
+Enter priority: 2
+Enter 1 to add, 2 to see highest priority, 3 to delete highest priority, 0 to exit: 1
+Enter data: 44
+Enter priority: 3
+Enter 1 to add, 2 to see highest priority, 3 to delete highest priority, 0 to exit: 2
+Highest Priority Data: 44 Priority: 3
+Enter 1 to add, 2 to see highest priority, 3 to delete highest priority, 0 to exit: 3
+Deleted data: 44 with priority: 3
+Enter 1 to add, 2 to see highest priority, 3 to delete highest priority, 0 to exit: 1
+Enter data: 55
+Enter priority: 5
+Enter 1 to add, 2 to see highest priority, 3 to delete highest priority, 0 to exit: 0
+Program ended.*/

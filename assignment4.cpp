@@ -1,3 +1,6 @@
+/*Problem Statement: Implement a program to convert an infix expression to prefix and postfix
+notation. • Evaluate both prefix and postfix expressions. Use STL for implementation.*/
+
 #include <iostream>
 #include <stack>
 #include <cmath>
@@ -160,3 +163,12 @@ int main() {
     }
     return 0;
 }
+//output
+/*PS C:\Users\Nishant Sarwa\OneDrive\Documents\Nishant Sarwa\DSA> ./a.exe
+1. Infix to Postfix
+2. Evaluate Postfix
+3. Infix to Prefix
+4. Evaluate Prefix
+Enter choice: 1
+Enter expression: (a+b-c*d)+e-f/h
+Postfix: ab+cd*-e+fh/-*/

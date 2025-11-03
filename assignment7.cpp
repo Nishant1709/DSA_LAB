@@ -1,3 +1,12 @@
+/* Problem Statement: Department maintains student database. The file contains roll number, name,
+division and address. Implement a CPP program to -
+1. Create a sequential file to store and maintain student data.
+2. It should allow the user to add and delete information of students.
+3. Display information of particular student.
+i. If the student record does not exist an appropriate message is displayed.
+ii. If student record is found it should display the student details.
+*/
+
 #include<iostream>
 #include<fstream>
 using namespace std;
@@ -301,3 +310,74 @@ int main() {
 
     return 0;
 }
+//output
+/* PS C:\Users\Nishant Sarwa\OneDrive\Documents\Nishant Sarwa\DSA> g++ assignment7.cpp
+PS C:\Users\Nishant Sarwa\OneDrive\Documents\Nishant Sarwa\DSA> ./a.exe
+function you want to perform
+1. create file
+2. display file
+3. add new record
+4. search record
+5. modify record
+6. delete record
+enter your choice: 1
+enter the number of student those detail you want to add:2
+enter the roll number
+23331
+enter name of student
+nishant
+enter division of student
+11
+enter address of student
+pune
+enter dob of student
+11/06
+enter grade of student
+805
+enter percent of student
+85
+enter the roll number
+23330
+enter name of student
+rohan
+enter division of student
+11
+enter address of student
+kothrude
+enter dob of student
+12/06
+enter grade of student
+9
+enter percent of student
+99
+file created successfullyfunction you want to perform
+1. create file
+2. display file
+3. add new record
+4. search record
+5. modify record
+6. delete record
+enter your choice: 2
+Student Records
+Roll No: 23331
+Name: nishant
+Division: 11
+Address: pune
+DOB: 11/06
+Percentage: 805
+Grade: 85
+Roll No: 23330
+Name: rohan
+Division: 11
+Address: kothrude
+DOB: 12/06
+Percentage: 9
+Grade: 99
+function you want to perform
+1. create file
+2. display file
+3. add new record
+4. search record
+5. modify record
+6. delete record
+enter your choice:*/
